@@ -25,7 +25,7 @@ module.exports = defineConfig({
     excludeSpecPattern: [
       'cypress/e2e/**/challenge-hot-keys.ts',
       'cypress/e2e/**/multifile.ts',
-      'cypress/e2e/**/multifile-cert-project.ts'
+      'cypress/e2e/**/codeally.ts'
     ],
 
     setupNodeEvents(on, config) {

@@ -50,10 +50,6 @@ a.cert-tag:active {
   margin: 0 25px 25px;
 }
 
-.block-grid .challenge-jump-link a:focus:not(:focus-visible) {
-  outline: none;
-}
-
 .block-title-translation-cta {
   white-space: nowrap;
   padding: 0.2em 0.5em;
@@ -257,10 +253,6 @@ button.map-title {
   outline-offset: -2px;
 }
 
-.map-challenges-grid .map-challenge-title a:focus:not(:focus-visible) {
-  outline: none;
-}
-
 .map-challenges-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, 3.4rem);
@@ -293,9 +285,13 @@ button.map-title {
   position: relative;
 }
 
+.challenge-completed:focus-visible {
+  outline-color: var(--secondary-color);
+}
+
 .challenge-completed span {
-  font-weight: 700;
-  font-size: 1.3rem;
+  font-weight: 900;
+  font-size: 1.5rem;
   margin-top: -0.05rem;
 }
 
